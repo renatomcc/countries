@@ -200,7 +200,7 @@ function App() {
       {isLoading && (
         <div className="loading">
           <h1>Loading...</h1>
-          <img src="src\images\loadingIcon.gif" alt="Loading..."/>
+          <img src="https://i.ibb.co/Dpv83B6/loading-Icon.gif" alt="Loading..."/>
         </div>
       )}
       {!isLoading && (
