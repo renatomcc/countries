@@ -198,7 +198,10 @@ function App() {
         </div>
       </header>
       {isLoading && (
-        <h1>loading...</h1>
+        <div className="loading">
+          <h1>Loading...</h1>
+          <img src="src\images\loadingIcon.gif" alt="Loading..."/>
+        </div>
       )}
       {!isLoading && (
         <div className="countries">

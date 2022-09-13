@@ -41,13 +41,11 @@ export const CountryCard = (props: CountryType) => {
                                 <label>Capital</label>
                                 <span>{props.capital}</span>
                             </div>
-                            <div className="currency">
-                                <label>Currencies</label>
-                                <div className="currenciesNames">
-                                    <span>{props.currencies.name}</span>
-                                    <span>{props.currencies.initials}</span>
-                                </div>
+                            <div className="region">
+                                <label>Region</label>
+                                <span>{props.region}</span>
                             </div>
+
                             <div className="population">
                                 <label>Population</label>
                                 <span>{props.population}</span>
@@ -56,9 +54,12 @@ export const CountryCard = (props: CountryType) => {
                                 <label>Languages</label>
                                 <span>{props.languages}</span>
                             </div>
-                            <div className="region">
-                                <label>Region</label>
-                                <span>{props.region}</span>
+                            <div className="currency">
+                                <label>Currencies</label>
+                                <div className="currenciesNames">
+                                    <span>{props.currencies.name}</span>
+                                    <span>{props.currencies.initials}</span>
+                                </div>
                             </div>
                         </div>
                     </div>
